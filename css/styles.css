@@ -13,56 +13,59 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.container {
-  margin: 10px 50px;
+.navbar {
+  padding: 20px 30px;
 }
 
-h2 {
+.navbar h2 {
   color: #fff;
   padding: 30px;
 }
 
 .phone {
   width: 35px;
-  margin-top: -30px;
-  margin-bottom: 30px;
 }
 
 .lists {
-  border-bottom: 2px solid #fff;
-  width: 60%;
-  float: right;
-}
-
-.lists ul li {
-  list-style-type: none;
-  color: #fff;
-  padding: 30px 30px;
-  cursor: pointer;
-}
-
-.list-item:first-child {
-  margin-left: 0;
-}
-
-.lists, .lists ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin-top: -50px;
-  padding-right: 40px;
-  margin-bottom: 30px;
+  border-bottom: 2px solid #fff;
+  float: right;
+  padding-bottom: 30px;
+  margin-left: 0;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  margin-left: 0;
+}
+
+.list-item {
+  cursor: pointer;
+  margin-left: 0;
+  padding-right: 90px;
 }
 
 .contact {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: center;
   color: #fff;
-  margin-top: -30px;
-  margin-bottom: 30px;
-  margin-right: 0;
   cursor: pointer;
+}
+
+/* Section */
+.left-side {
+  margin-top: 50px;
+}
+
+.icons {
+  width: 30px;
 }
 
